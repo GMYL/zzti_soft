@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.sourceforge.jexcelapi:jxl:2.6.12:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.jexcelapi/jxl/jars/jxl-2.6.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.jexcelapi/jxl/srcs/jxl-2.6.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
