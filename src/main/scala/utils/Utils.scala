@@ -1,10 +1,11 @@
 package utils
 
 import java.io.FileWriter
-import java.sql.Timestamp
+import java.sql.{Date, Timestamp}
 import java.text.SimpleDateFormat
 import java.time.LocalDate
-import java.util.{Date, Locale}
+import java.util.{Locale, TimeZone}
+import java.lang.Long
 
 import org.slf4j.LoggerFactory
 import pojo.Student
@@ -14,9 +15,8 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 
 object Utils {
-
+  /*随机获取时间当天时间的方法*/
   def getTime(int: Int):String={
-
     var loc=new Locale("en")
     var fm=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss",loc)
     var t=""
@@ -59,9 +59,15 @@ object Utils {
     }
     var timestr=LocalDate.now()+" "+t
     var time=fm.parse(timestr).getTime.toString
-//    print(time)
     time
 
+  }
+  /*时间戳转化成日期格式yyyy-MM-dd HH:mm:ss*/
+  def transformat(date:String):String ={
+    val myformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+    myformat.setTimeZone(TimeZone.getTimeZone("GMT"+8))
+    val time=new Date(new Long(date))
+    myformat.format(time)
   }
 
 
@@ -73,7 +79,7 @@ object Utils {
     var xfje=(new util.Random).nextInt(20)+( if((new util.Random).nextDouble()>0.5)0.50 else 0.00)//随机消费金额20以内，整数或.5小数
     var syje=(new util.Random).nextDouble().formatted("%.2f").toDouble+(new util.Random).nextInt(300)//随机剩余金额300以内的小数
     var stskjl="id:"+student.id+" name:"+student.name+" ck:"+ckid+" xfje:"+xfje+" syje:"+syje+" time:"+time+"\r\n"//拼接成一条记录,每个字段以空格分开
-    val writer=new FileWriter("F:\\zzti_soft\\stsk.txt",true)
+    val writer=new FileWriter("src\\data\\stsk.txt",true)
     writer.write(stskjl)
     writer.close()
     print(stskjl)
@@ -85,7 +91,7 @@ object Utils {
     var time = getTime(int)
     var sbbh=(new util.Random).nextInt(128)
     var sxjls="id:"+student.id+" name:"+student.name+" sbbh:"+sbbh+" time:"+time+"\r\n"
-    val writer=new FileWriter("F:\\zzti_soft\\sxjl.txt",true)
+    val writer=new FileWriter("src\\data\\sxjl.txt",true)
     writer.write(sxjls)
     writer.close()
     print(sxjls)
@@ -96,7 +102,7 @@ object Utils {
 
     var time=getTime(int)
     var mjjls="id:"+student.id+" name:"+student.name+" time:"+time+"\r\n"
-    val writer=new FileWriter("F:\\zzti_soft\\mjjl.txt",true)
+    val writer=new FileWriter("src\\data\\mjjl.txt",true)
     writer.write(mjjls)
     writer.close()
     print(mjjls)
@@ -105,10 +111,10 @@ object Utils {
   def WIFIjl(student: Student,int: Int):Unit ={
     var sxsj = getTime(int).toLong  //上线时间
     var lybh=(new util.Random).nextInt(8) //路由编号
-    var zxsc=((new util.Random).nextInt(180)+10) //在线时长 10-180分钟
-    var xxsj=(sxsj+zxsc*60000)  //下线时间
+    var zxsc=(new util.Random).nextInt(180)+10 //在线时长 10-180分钟
+    var xxsj=sxsj+zxsc*60000  //下线时间
     var WIFIjls="id:"+student.id+" name:"+student.name+" lybh:"+lybh+" sxsj:"+sxsj+" xxsj:"+xxsj+" zxsc:"+zxsc+"\r\n"
-    val writer=new FileWriter("F:\\zzti_soft\\WIFIjl.txt",true)
+    val writer=new FileWriter("src\\data\\WIFIjl.txt",true)
     writer.write(WIFIjls)
     writer.close()
     print(WIFIjls)
@@ -116,12 +122,47 @@ object Utils {
 
   }
   /*查课记录*/
-  def ckjl(student: Student,int: Int): Unit ={
-    var cksj=getTime(int)
+  def ckjl(student: Student,int: Int,state:Boolean): Unit ={
+    //上课教室
+    var list=List("1#101","1#102","1#103","1#104","1#105","1#106","1#201","1#202","1#203","1#204","1#205",
+      "1#206","1#207","1#208","1#301","1#302","1#303","1#304","1#305","1#306","1#307","1#401","1#402",
+      "1#403","1#404","1#405")
+    var listlength=(new util.Random).nextInt(list.length+1) //
+    var classrooms=list(listlength)
+    var cksj=transformat(getTime(int))
+    var a=new Excel()
+    var isjs=""
+    if (state){
+      isjs="是"
+
+    }else{
+      isjs="否"
+    }
+
+    var sd:List[List[String]]=List(List(student.id,student.name,classrooms,isjs,cksj))//写入一条记录
+    a.exportDataToExcel("src\\data\\ckjl.xls","sheet1",sd)
   }
+
+
   /*查寝记录*/
-  def cqjl(student: Student,int: Int): Unit ={
-    var cqsj=getTime(int)
+  def cqjl(student: Student,int: Int,state:Boolean): Unit ={
+    //寝室号
+    var list=List("3#101","3#102","3#103","3#104","3#105","3#106","3#201","3#202","3#203","3#204","3#205",
+      "3#206","3#207","3#208","3#301","3#302","3#303","3#304","3#305","3#306","3#307","3#401","3#402",
+      "3#403","3#404","3#405")
+    var listlength=(new util.Random).nextInt(list.length+1) //
+    var qinshiID=list(listlength)//随机得到一个寝室号
+    var cqsj=transformat(getTime(int))
+    var a=new Excel()
+    var isqs=""
+    if (state){
+      isqs="是"
+
+    }else{
+      isqs="否"
+    }
+    var sd:List[List[String]]=List(List(student.id,student.name,qinshiID,isqs,cqsj))//写入一条记录
+    a.exportDataToExcel("src\\data\\cqjl.xls","sheet1",sd)
   }
 
   //上机记录    数据库
@@ -129,7 +170,7 @@ object Utils {
   def sjjl(student: Student,int: Int): Unit ={
     // init logger
     val logger = LoggerFactory.getLogger(getClass.getSimpleName)
-    logger.debug("slick add end")
+    logger.debug("slick add start")
     // config database
     val db = Database.forURL(
       url = "jdbc:mysql://localhost:3306/zzti_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
@@ -163,7 +204,7 @@ object Utils {
 
     //下线时间
     var xxsj=sxsj+zxsc*60000  //下线时间
-    var  lt=xxsj.toLong //1517914988000
+    var  lt=xxsj //1517914988000
     var da = new Date(lt)  //Tue Feb 06 19:03:08 GMT+08:00 2018
     var res=si.format(da)  //2018-02-06 19:03:08
     var da_xxsjs=ts(res)
@@ -209,6 +250,9 @@ object Utils {
     WIFIjl(s,31)//21:00-21:30
     sxjl(s,32)//21:30-22:00
     mjjl(s,33)//22:00-22:30
+    var bool=true
+    cqjl(s,0,bool)
+    ckjl(s,0,bool)
   }
 
 }

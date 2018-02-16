@@ -3,7 +3,14 @@
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../zzti_soft" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../zzti_soft" />
+            <option value="$PROJECT_DIR$/../zzti_soft/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.0.0" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
       </SbtProjectSettings>
