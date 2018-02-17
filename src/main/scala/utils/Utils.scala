@@ -100,7 +100,7 @@ object Utils {
     var time = getTime(int)
     //    var sbbh=(new util.Random).nextInt(128)
     var sxjls="id:"+student.id+" name:"+student.name+" sbbh:"+sbbh+" time:"+time+"\r\n"
-    val writer=new FileWriter("G:\\zzti_soft\\sxjl.txt",true)
+    val writer=new FileWriter("src\\data\\sxjl.txt",true)
     writer.write(sxjls)
     writer.close()
     print(sxjls)
@@ -117,9 +117,11 @@ object Utils {
     print(mjjls)
   }
   /*联网记录*/
-  def WIFIjl(student: Student,int: Int):Unit ={
+  def WIFIjl(student: Student,int: Int,bh:Int):Unit ={
+    var list=List("WiFi_00","WiFi_01","WiFi_02","WiFi_03","WiFi_04","WiFi_05","WiFi_06","WiFi_07","WiFi_08")
+    var lybh=list(bh)
     var sxsj = getTime(int).toLong  //上线时间
-    var lybh=(new util.Random).nextInt(8) //路由编号
+//    var lybh=(new util.Random).nextInt(8) //路由编号
     var zxsc=(new util.Random).nextInt(180)+10 //在线时长 10-180分钟
     var xxsj=sxsj+zxsc*60000  //下线时间
     var WIFIjls="id:"+student.id+" name:"+student.name+" lybh:"+lybh+" sxsj:"+sxsj+" xxsj:"+xxsj+" zxsc:"+zxsc+"\r\n"
@@ -225,6 +227,7 @@ object Utils {
     s.id="201560240238"
     s.name="梁朝阳"
     sxjl(s,3,1)
+    WIFIjl(s,3,2)
 //    mjjl(s,3)//7:00-7:30
 //    stsk(s,4)//7:30-8:00
 //    sxjl(s,5)//8:00-8:30
