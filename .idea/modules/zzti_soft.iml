@@ -22,24 +22,24 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.10:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.reactivestreams:reactive-streams:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: net.sourceforge.jexcelapi:jxl:2.6.12:jar" level="project" />
-    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.38:jar" level="project" />
-    <orderEntry type="library" name="SBT: log4j:log4j:1.2.14:jar" level="project" />
-    <orderEntry type="library" name="SBT: joda-time:joda-time:2.9.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.slick:slick_2.11:3.1.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.play:play-json_2.11:2.6.7:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe.play:play-functional_2.11:2.6.7:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.8.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.8.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.8.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.8.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.8.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.play:play-functional_2.11:2.6.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.play:play-json_2.11:2.6.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.slick:slick_2.11:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.9.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: log4j:log4j:1.2.14:jar" level="project" />
+    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.38:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.jexcelapi:jxl:2.6.12:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.reactivestreams:reactive-streams:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.10:jar" level="project" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="project" />
   </component>
 </module>

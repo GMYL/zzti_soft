@@ -93,12 +93,14 @@ object Utils {
     * @param student //学生对象
     * @param int // 时间参数
     * */
-  def sxjl(student: Student,int: Int): Unit ={
+  def sxjl(student: Student,int: Int,bh:Int): Unit ={
 
+    var list=List("SXT_00","SXT_01","SXT_02","SXT_03","SXT_04","SXT_05","SXT_06","SXT_07","SXT_08")
+    var sbbh=list(bh)
     var time = getTime(int)
-    var sbbh=(new util.Random).nextInt(128)
+    //    var sbbh=(new util.Random).nextInt(128)
     var sxjls="id:"+student.id+" name:"+student.name+" sbbh:"+sbbh+" time:"+time+"\r\n"
-    val writer=new FileWriter("src\\data\\sxjl.txt",true)
+    val writer=new FileWriter("G:\\zzti_soft\\sxjl.txt",true)
     writer.write(sxjls)
     writer.close()
     print(sxjls)
@@ -222,39 +224,40 @@ object Utils {
     var s=new Student()
     s.id="201560240238"
     s.name="梁朝阳"
-    mjjl(s,3)//7:00-7:30
-    stsk(s,4)//7:30-8:00
-    sxjl(s,5)//8:00-8:30
-    WIFIjl(s,6)//8:30-9:00
-    WIFIjl(s,7)//9:00-9:30
-    WIFIjl(s,8)//9:30-10:00
-    WIFIjl(s,9)//10:00-10:30
-    sxjl(s,10)
-    WIFIjl(s,11)
-    sxjl(s,12)//11:30-12:00
-    stsk(s,13)//12:00-12:30
-    mjjl(s,14)//12:30-13:00
-    WIFIjl(s,15)
-    mjjl(s,16)//13:30-14:00
-    sxjl(s,17)//14:30-15:00 上机
-    sjjl(s,19)//15:00-15:30
-    sjjl(s,20)//15:30-16:00
-    sxjl(s,21)//16:00-16:30上课
-    WIFIjl(s,22)//16:30-17:00
-    WIFIjl(s,23)//17:00-17:30
-    WIFIjl(s,24)//17:30-18:00
-    sxjl(s,25)//18：00-18：30
-    stsk(s,26)//18:30-19:00
-    sxjl(s,27)//19:00-19:30
-    WIFIjl(s,28)//19:30-20:00
-    WIFIjl(s,29)//20:00-20:30
-    sxjl(s,30)//20:30-21:00
-    WIFIjl(s,31)//21:00-21:30
-    sxjl(s,32)//21:30-22:00
-    mjjl(s,33)//22:00-22:30
-    var bool=true
-    cqjl(s,0,bool)
-    ckjl(s,0,bool)
+    sxjl(s,3,1)
+//    mjjl(s,3)//7:00-7:30
+//    stsk(s,4)//7:30-8:00
+//    sxjl(s,5)//8:00-8:30
+//    WIFIjl(s,6)//8:30-9:00
+//    WIFIjl(s,7)//9:00-9:30
+//    WIFIjl(s,8)//9:30-10:00
+//    WIFIjl(s,9)//10:00-10:30
+//    sxjl(s,10)
+//    WIFIjl(s,11)
+//    sxjl(s,12)//11:30-12:00
+//    stsk(s,13)//12:00-12:30
+//    mjjl(s,14)//12:30-13:00
+//    WIFIjl(s,15)
+//    mjjl(s,16)//13:30-14:00
+//    sxjl(s,17)//14:30-15:00 上机
+//    sjjl(s,19)//15:00-15:30
+//    sjjl(s,20)//15:30-16:00
+//    sxjl(s,21)//16:00-16:30上课
+//    WIFIjl(s,22)//16:30-17:00
+//    WIFIjl(s,23)//17:00-17:30
+//    WIFIjl(s,24)//17:30-18:00
+//    sxjl(s,25)//18：00-18：30
+//    stsk(s,26)//18:30-19:00
+//    sxjl(s,27)//19:00-19:30
+//    WIFIjl(s,28)//19:30-20:00
+//    WIFIjl(s,29)//20:00-20:30
+//    sxjl(s,30)//20:30-21:00
+//    WIFIjl(s,31)//21:00-21:30
+//    sxjl(s,32)//21:30-22:00
+//    mjjl(s,33)//22:00-22:30
+//    var bool=true
+//    cqjl(s,0,bool)
+//    ckjl(s,0,bool)
   }
 
 }
