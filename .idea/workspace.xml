@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/zzti_soft-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/zzti_soft-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/zzti_soft.iml" afterPath="$PROJECT_DIR$/.idea/modules/zzti_soft.iml" />
+    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/utils/Utils.scala" afterPath="$PROJECT_DIR$/src/main/scala/utils/Utils.scala" />
     </list>
@@ -28,8 +26,8 @@
       <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1199">
-              <caret line="260" column="3" lean-forward="false" selection-start-line="260" selection-start-column="3" selection-end-line="260" selection-end-column="3" />
+            <state relative-caret-position="178">
+              <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
               <folding>
                 <element signature="e#385#3879#0" expanded="false" />
                 <element signature="e#3882#4143#0" expanded="false" />
@@ -89,8 +87,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="369" />
-    <option name="y" value="16" />
+    <option name="x" value="358" />
+    <option name="y" value="19" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -157,7 +155,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="D:/SBTScala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -371,14 +369,35 @@
       <option name="project" value="LOCAL" />
       <updated>1518869396216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加设备编号">
+      <created>1518871605488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518871605488</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加设备编号">
+      <created>1518871923394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518871923394</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加设备编号">
+      <created>1518871944443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518871944443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="25369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="369" y="16" width="1400" height="990" extended-state="0" />
+    <frame x="358" y="19" width="1400" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -390,7 +409,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29908675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29908675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -421,7 +440,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据" />
     <MESSAGE value="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷" />
+    <MESSAGE value="增加设备编号" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加设备编号" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Utils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1199">
-          <caret line="260" column="3" lean-forward="false" selection-start-line="260" selection-start-column="3" selection-end-line="260" selection-end-column="3" />
+        <state relative-caret-position="178">
+          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding>
             <element signature="e#385#3879#0" expanded="false" />
             <element signature="e#3882#4143#0" expanded="false" />

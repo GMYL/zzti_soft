@@ -97,8 +97,6 @@ object Utils {
 
     var list=List("SXT_00","SXT_01","SXT_02","SXT_03","SXT_04","SXT_05","SXT_06","SXT_07","SXT_08")
     var sbbh=list(bh)
-
-
     var time = getTime(int)
     //    var sbbh=(new util.Random).nextInt(128)
     var sxjls="id:"+student.id+" name:"+student.name+" sbbh:"+sbbh+" time:"+time+"\r\n"
