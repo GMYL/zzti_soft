@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="">
+    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/../zzti_soft/out/" />
     <ignored path="$PROJECT_DIR$/../zzti_soft/target/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
               <folding>
                 <element signature="e#385#3879#0" expanded="false" />
                 <element signature="e#3882#4143#0" expanded="false" />
@@ -109,12 +108,6 @@
               <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
               <item name="zzti_soft" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzti_soft" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -131,19 +124,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzti_soft" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzti_soft" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +336,7 @@
       <workItem from="1518571093142" duration="3406000" />
       <workItem from="1518618379185" duration="617000" />
       <workItem from="1518763309935" duration="10024000" />
-      <workItem from="1518868421002" duration="953000" />
+      <workItem from="1518868421002" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
       <created>1518773722769</created>
@@ -365,14 +345,22 @@
       <option name="project" value="LOCAL" />
       <updated>1518773722769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
+      <created>1518869396216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518869396216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24489000" />
+    <option name="totallyTimeSpent" value="25369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -387,7 +375,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -667,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="255" column="18" lean-forward="true" selection-start-line="255" selection-start-column="18" selection-end-line="255" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
           <folding>
             <element signature="e#385#3879#0" expanded="false" />
             <element signature="e#3882#4143#0" expanded="false" />
