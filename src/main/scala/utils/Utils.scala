@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory
 import pojo.Student
 import slick.driver.MySQLDriver.api._
 
+import zztiDB._
+
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
@@ -69,9 +71,11 @@ object Utils {
     val time=new Date(new Long(date))
     myformat.format(time)
   }
-
-
-  /*食堂刷卡*/
+  /**
+    * 食堂刷卡
+    * @param student //学生对象
+    * @param int // 时间参数
+    * */
   def stsk(student: Student,int:Int): Unit ={
 
     var time=getTime(int)// 0和大于33的值为随机6-22点的时间，1-33分别对应6-22点半的33个时间段，每半个小时一个时间段
@@ -85,7 +89,10 @@ object Utils {
     print(stskjl)
 
   }
-  /*摄像记录*/
+  /**摄像记录
+    * @param student //学生对象
+    * @param int // 时间参数
+    * */
   def sxjl(student: Student,int: Int): Unit ={
 
     var time = getTime(int)
@@ -142,8 +149,6 @@ object Utils {
     var sd:List[List[String]]=List(List(student.id,student.name,classrooms,isjs,cksj))//写入一条记录
     a.exportDataToExcel("src\\data\\ckjl.xls","sheet1",sd)
   }
-
-
   /*查寝记录*/
   def cqjl(student: Student,int: Int,state:Boolean): Unit ={
     //寝室号
@@ -157,16 +162,13 @@ object Utils {
     var isqs=""
     if (state){
       isqs="是"
-
     }else{
       isqs="否"
     }
     var sd:List[List[String]]=List(List(student.id,student.name,qinshiID,isqs,cqsj))//写入一条记录
     a.exportDataToExcel("src\\data\\cqjl.xls","sheet1",sd)
   }
-
-  //上机记录    数据库
-  import zztiDB._
+  /*上机记录*/
   def sjjl(student: Student,int: Int): Unit ={
     // init logger
     val logger = LoggerFactory.getLogger(getClass.getSimpleName)
@@ -215,7 +217,7 @@ object Utils {
 
     logger.debug("slick add end")
   }
-
+  /*测试方法*/
   def main(args: Array[String]): Unit = {
     var s=new Student()
     s.id="201560240238"
