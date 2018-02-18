@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
+    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/../zzti_soft/out/" />
     <ignored path="$PROJECT_DIR$/../zzti_soft/target/" />
@@ -22,16 +30,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+            <state relative-caret-position="-437">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding>
-                <element signature="e#385#3879#0" expanded="false" />
-                <element signature="e#3882#4143#0" expanded="false" />
-                <element signature="e#4146#4904#0" expanded="false" />
+                <element signature="e#3881#4142#0" expanded="false" />
+                <element signature="e#4145#4903#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataType.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="692">
+              <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mjjl.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WIFIjl.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sxjl.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1058">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zztiDB.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,6 +113,7 @@
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Excel.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/test/scala/excel_test.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
+        <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
       </list>
     </option>
   </component>
@@ -85,7 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,21 +178,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zzti_soft" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,119 +202,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\zzti_soft\src\main\scala" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft-build.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -449,7 +388,8 @@
       <workItem from="1518571093142" duration="3406000" />
       <workItem from="1518618379185" duration="617000" />
       <workItem from="1518763309935" duration="10024000" />
-      <workItem from="1518868421002" duration="4353000" />
+      <workItem from="1518868421002" duration="6561000" />
+      <workItem from="1518958314015" duration="10778000" />
     </task>
     <task id="LOCAL-00001" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
       <created>1518773722769</created>
@@ -472,14 +412,22 @@
       <option name="project" value="LOCAL" />
       <updated>1518870316108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
+      <created>1518872807024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518872807024</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27889000" />
+    <option name="totallyTimeSpent" value="40875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -494,7 +442,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -535,9 +483,51 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#385#3879#0" expanded="false" />
-            <element signature="e#3882#4143#0" expanded="false" />
-            <element signature="e#4146#4904#0" expanded="false" />
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -562,6 +552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,9 +561,8 @@
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
-            <element signature="e#385#3879#0" expanded="false" />
-            <element signature="e#3882#4143#0" expanded="false" />
-            <element signature="e#4146#4904#0" expanded="false" />
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +610,8 @@
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
-            <element signature="e#385#3879#0" expanded="false" />
-            <element signature="e#3882#4143#0" expanded="false" />
-            <element signature="e#4146#4904#0" expanded="false" />
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,6 +650,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,9 +659,8 @@
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
-            <element signature="e#385#3879#0" expanded="false" />
-            <element signature="e#3882#4143#0" expanded="false" />
-            <element signature="e#4146#4904#0" expanded="false" />
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -693,13 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -748,14 +731,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+        <state relative-caret-position="-437">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
-            <element signature="e#385#3879#0" expanded="false" />
-            <element signature="e#3882#4143#0" expanded="false" />
-            <element signature="e#4146#4904#0" expanded="false" />
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4903#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="334" column="0" lean-forward="true" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
