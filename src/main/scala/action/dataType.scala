@@ -7,12 +7,15 @@ class dataType {
   var utils = new Utils()
 
   def cxzy(s: Student): Unit = {
+    // 1，2 时间段，在寝室
     if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 1, 7)
     if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 2, 7)
+    //3 时间段，出寝室，4 时间段吃早饭
     if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 3, 7)
     if ((new util.Random).nextInt(10) < 5) utils.mjjl(s, 3)
     if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 4, 8)
     if ((new util.Random).nextInt(10) < 7) utils.stsk(s, 4)
+
 
     var random1 = (new util.Random).nextInt(10)
     if (random1 < 4) {
@@ -80,11 +83,11 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 11)
     }
     var random3 = (new util.Random).nextInt(3) + 12
-    utils.sxjl(s, random3, 8)
-    utils.stsk(s, random3)
     if (random3 == 12) {
-      var random4 = (new util.Random).nextInt(10)
-      if (random4 < 4) {
+      utils.sxjl(s, 12, 8)
+      utils.stsk(s, 12)
+      var random3_1 = (new util.Random).nextInt(10)
+      if (random3_1 < 4) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 13, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 13, 7)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 13)
@@ -113,8 +116,10 @@ class dataType {
     if (random3 == 13) {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 12, 2)
       if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 12, 2)
-      var random4 = (new util.Random).nextInt(10)
-      if (random4 < 10) {
+      utils.sxjl(s, 13, 8)
+      utils.stsk(s, 13)
+      var random3_2 = (new util.Random).nextInt(10)
+      if (random3_2 < 10) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 14, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 14, 7)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 14)
@@ -125,7 +130,6 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 17, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 17, 7)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 17)
-
       } else {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 14, 2)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 14, 2)
@@ -138,8 +142,8 @@ class dataType {
       }
     }
     if (random3 == 14) {
-      var random4 = (new util.Random).nextInt(10)
-      if (random4 < 4) {
+      var random3_3 = (new util.Random).nextInt(10)
+      if (random3_3 < 4) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 12, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 12, 7)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 12)
@@ -152,6 +156,8 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 13, 2)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 13, 2)
       }
+      utils.sxjl(s, 14 ,8)
+      utils.stsk(s, 14)
       var random5 = (new util.Random).nextInt(10)
       if (random5 < 5) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 15, 7)
@@ -174,7 +180,7 @@ class dataType {
     }
     var random6 = (new util.Random).nextInt(10)
     if (random6 < 3) {
-      //8:00-9:30 上课/创业中心/上机
+      // 上课/创业中心/上机
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 18, 3)
       if ((new util.Random).nextInt(10) < 6) utils.WIFIjl(s, 18, 3)
       if ((new util.Random).nextInt(10) < 3) utils.ckjl(s, 18, true)
@@ -202,11 +208,11 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 20)
     } else {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 18, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 18, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 18, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 19, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 19, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 19, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 20, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 20, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 20, 7)
       if ((new util.Random).nextInt(10) < 2) utils.mjjl(s, 20)
     }
     var random7 = (new util.Random).nextInt(10)
@@ -246,19 +252,20 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 24)
     } else {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 21, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 21, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 21, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 22, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 22, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 22, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 23, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 23, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 23, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 24, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 24, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 24, 7)
       if ((new util.Random).nextInt(10) < 2) utils.mjjl(s, 24)
     }
     var random8 = (new util.Random).nextInt(2) + 25
-    utils.sxjl(s, random8, 8)
-    utils.stsk(s, random8)
+
     if (random8 == 25) {
+      utils.sxjl(s, 25, 8)
+      utils.stsk(s, 25)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 2) {
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 26)
@@ -277,6 +284,7 @@ class dataType {
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 31, 7)
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 32, 7)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 7)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
 
       } else {
@@ -295,12 +303,15 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 2)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 32, 2)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 33)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 2)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
       }
     }
     if (random8 == 26) {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 25, 2)
       if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 25, 2)
+      utils.sxjl(s, 26, 8)
+      utils.stsk(s, 26)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 2) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 27, 7)
@@ -315,6 +326,7 @@ class dataType {
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 31, 7)
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 32, 7)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 7)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
       } else {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 27, 2)
@@ -330,6 +342,7 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 2)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 32, 2)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 33)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 7)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
       }
     }
@@ -411,9 +424,9 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 11)
     }
     var random3 = (new util.Random).nextInt(3) + 12
-    utils.sxjl(s, random3, 8)
-    utils.stsk(s, random3)
     if (random3 == 12) {
+      utils.sxjl(s, 12, 8)
+      utils.stsk(s, 12)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 4) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 13, 7)
@@ -444,6 +457,8 @@ class dataType {
     if (random3 == 13) {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 12, 4)
       if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 12, 4)
+      utils.sxjl(s, 13, 8)
+      utils.stsk(s, 13)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 10) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 14, 7)
@@ -483,6 +498,8 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 13, 4)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 13, 4)
       }
+      utils.sxjl(s, 14, 8)
+      utils.stsk(s, 14)
       var random5 = (new util.Random).nextInt(10)
       if (random5 < 5) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 15, 7)
@@ -533,11 +550,11 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 20)
     } else {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 18, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 18, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 18, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 19, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 19, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 19, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 20, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 20, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 20, 7)
       if ((new util.Random).nextInt(10) < 2) utils.mjjl(s, 20)
     }
     var random7 = (new util.Random).nextInt(10)
@@ -577,19 +594,20 @@ class dataType {
       if ((new util.Random).nextInt(10) < 10) utils.sjjl(s, 24)
     } else {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 21, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 21, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 21, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 22, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 22, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 22, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 23, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 23, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 23, 7)
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 24, 7)
-      if ((new util.Random).nextInt(10) < 9) utils.sxjl(s, 24, 7)
+      if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 24, 7)
       if ((new util.Random).nextInt(10) < 2) utils.mjjl(s, 24)
     }
     var random8 = (new util.Random).nextInt(2) + 25
-    utils.sxjl(s, random8, 8)
-    utils.stsk(s, random8)
+
     if (random8 == 25) {
+      utils.sxjl(s, 25, 8)
+      utils.stsk(s, 25)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 2) {
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 26)
@@ -608,6 +626,7 @@ class dataType {
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 31, 7)
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 7)
         if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 32, 7)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 4)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
 
       } else {
@@ -626,12 +645,15 @@ class dataType {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 32, 4)
         if ((new util.Random).nextInt(10) < 9) utils.WIFIjl(s, 32, 4)
         if ((new util.Random).nextInt(10) < 8) utils.mjjl(s, 33)
+        if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 33, 4)
         if ((new util.Random).nextInt(10) < 8) utils.cqjl(s,33,true)
       }
     }
     if (random8 == 26) {
       if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 25, 4)
       if ((new util.Random).nextInt(10) < 8) utils.WIFIjl(s, 25, 4)
+      utils.sxjl(s, 26, 8)
+      utils.stsk(s, 26)
       var random4 = (new util.Random).nextInt(10)
       if (random4 < 3) {
         if ((new util.Random).nextInt(10) < 10) utils.sxjl(s, 27, 7)

@@ -22,15 +22,12 @@ object cyzx_test {
     line=>
     val num = line.split(", ")
     (num(0).toLong % 100,(num(0),num(1)))
-
-}
-    val library = files.filter(x => x._1 < 5)             //图书馆（10%）
-    val cyzx = files.filter(x => x._1 >= 5 && x._1 < 10)  //创业中心（10%）
-    val jf = files.filter(x => x._1 >= 10 && x._1 < 14)   //机房工作（5%）
-    val zxs = files.filter(x => x._1 >= 14 && x._1 < 20)  //自习室（15%）
-    val go_out = files.filter(x => x._1 >= 20 && x._1 < 23)  //经常外出（5%）
-    val hostel= files.filter(x => x._1 >= 23 && x._1 < 29)  //宅在寝室（15%）
-    val pt_stu = files.filter(x => x._1 >= 29 && x._1 < 39)  //普通学生（25%
+  }
+    val library = files.filter(x => x._1 < 12)             //图书馆（25%）
+    val cyzx = files.filter(x => x._1 >= 12 && x._1 < 17)  //创业中心（10%）
+    val jf = files.filter(x => x._1 >= 17 && x._1 < 22)   //机房工作（10%）
+    val go_out = files.filter(x => x._1 >= 22 && x._1 < 24)  //经常外出（5%）
+    val pt_stu = files.filter(x => x._1 >= 24 && x._1 < 39)  //普通学生（25%）
     val qt = files.filter(x => x._1 >= 39 &&x._1 < 45)     //其他（15%）
 
     //创业中心人员  数据  转成集合 生成
