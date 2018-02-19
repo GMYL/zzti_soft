@@ -12,7 +12,7 @@ object cyzx_test {
     conf.setMaster("local")
 
     val sc=new SparkContext(conf)
-    val file=sc.textFile("G:\\list.txt")
+    val file=sc.textFile("src\\data\\list.txt")
 //    file.collect.foreach(println)
 
     var datatype=new dataType()
