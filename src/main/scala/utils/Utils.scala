@@ -138,7 +138,7 @@ class Utils {
     var list=List("1#101","1#102","1#103","1#104","1#105","1#106","1#201","1#202","1#203","1#204","1#205",
       "1#206","1#207","1#208","1#301","1#302","1#303","1#304","1#305","1#306","1#307","1#401","1#402",
       "1#403","1#404","1#405")
-    var listlength=(new util.Random).nextInt(list.length+1) //
+    var listlength=(new util.Random).nextInt(list.length) //
     var classrooms=list(listlength)
     var cksj=transformat(getTime(int))
     var a=new Excel()
@@ -159,7 +159,7 @@ class Utils {
     var list=List("3#101","3#102","3#103","3#104","3#105","3#106","3#201","3#202","3#203","3#204","3#205",
       "3#206","3#207","3#208","3#301","3#302","3#303","3#304","3#305","3#306","3#307","3#401","3#402",
       "3#403","3#404","3#405")
-    var listlength=(new util.Random).nextInt(list.length+1) //
+    var listlength=(new util.Random).nextInt(list.length) //
     var qinshiID=list(listlength)//随机得到一个寝室号
     var cqsj=transformat(getTime(int))
     var a=new Excel()
@@ -192,7 +192,7 @@ class Utils {
     var list=List("2#101","2#102","2#103","2#104","2#105","2#106","2#201","2#202","2#203","2#204","2#205",
       "2#206","2#207","2#208","2#301","2#302","2#303","2#304","2#305","2#306","2#307","2#401","2#402",
       "2#403","2#404","2#405")
-    var listlength=(new util.Random).nextInt(list.length+1) //
+    var listlength=(new util.Random).nextInt(list.length) //
     var classrooms=list(listlength)
 
     //上线时间
