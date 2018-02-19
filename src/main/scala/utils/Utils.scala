@@ -221,8 +221,4 @@ class Utils {
 
     logger.debug("slick add end")
   }
-  def Sbrandom(): Unit ={
-
-  }
-
 }
