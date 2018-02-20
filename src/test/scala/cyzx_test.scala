@@ -31,13 +31,23 @@ object cyzx_test {
     val qt = files.filter(x => x._1 >= 39 &&x._1 < 45)     //其他（15%）
 
     //创业中心人员  数据  转成集合 生成
-    val qtsize=cyzx.count().toInt
-    val nums =cyzx.map(qt=>qt._2._1).take(qtsize)
-    val names=cyzx.map(qt=>qt._2._2).take(qtsize)
-    for (i <-0 until qtsize){
+    val cyzxsize=cyzx.count().toInt
+    val nums =cyzx.map(qt=>qt._2._1).take(cyzxsize)
+    val names=cyzx.map(qt=>qt._2._2).take(cyzxsize)
+    for (i <-0 until cyzxsize){
       s.name=names(i)
       s.id=nums(i)
       datatype.cxzy(s)
+    }
+
+    //图书馆  数据  转成集合 生成
+    val libraryzxsize=cyzx.count().toInt
+    val librarynums =library.map(qt=>qt._2._1).take(libraryzxsize)
+    val librarynames=library.map(qt=>qt._2._2).take(libraryzxsize)
+    for (i <-0 until libraryzxsize){
+      s.name=librarynames(i)
+      s.id=librarynums(i)
+      datatype.library(s)
     }
 
   }
