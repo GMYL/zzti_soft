@@ -86,7 +86,7 @@ class Utils {
     val writer=new FileWriter("src\\data\\stsk.txt",true)
     writer.write(stskjl)
     writer.close()
-    print(stskjl)
+//    print(stskjl)
 
   }
   /**摄像记录
@@ -103,7 +103,7 @@ class Utils {
     val writer=new FileWriter("src\\data\\sxjl.txt",true)
     writer.write(sxjls)
     writer.close()
-    print(sxjls)
+//    print(sxjls)
 
   }
   /*门禁记录*/
@@ -114,7 +114,7 @@ class Utils {
     val writer=new FileWriter("src\\data\\mjjl.txt",true)
     writer.write(mjjls)
     writer.close()
-    print(mjjls)
+//    print(mjjls)
   }
   /*联网记录*/
   def WIFIjl(student: Student,int: Int,bh:Int):Unit ={
@@ -128,7 +128,6 @@ class Utils {
     val writer=new FileWriter("src\\data\\WIFIjl.txt",true)
     writer.write(WIFIjls)
     writer.close()
-    print(WIFIjls)
 //    print(WIFIjls)
 
   }

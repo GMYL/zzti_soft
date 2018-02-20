@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls" />
+    <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="添加library方法注释">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" afterPath="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/../zzti_soft/out/" />
@@ -30,14 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="222" column="3" lean-forward="false" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="3" />
+            <state relative-caret-position="276">
+              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
                 <element signature="e#3881#4142#0" expanded="false" />
-                <element signature="e#4145#4903#0" expanded="false" />
+                <element signature="e#4145#4905#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,20 +47,24 @@
       <file leaf-file-name="dataType.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="501" column="23" lean-forward="false" selection-start-line="501" selection-start-column="23" selection-end-line="501" selection-end-column="23" />
+            <state relative-caret-position="692">
+              <caret line="1776" column="0" lean-forward="false" selection-start-line="1776" selection-start-column="0" selection-end-line="1776" selection-end-column="0" />
               <folding>
                 <element signature="e#16#35#0" expanded="true" />
+                <element signature="e#102#19255#0" expanded="false" />
+                <element signature="e#38364#57483#0" expanded="false" />
+                <element signature="e#57487#70665#0" expanded="false" />
+                <element signature="e#70669#84573#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cyzx_test.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cyzx_test.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="138">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -67,41 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stsk.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mjjl.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sxjl.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="448">
+              <caret line="16327" column="0" lean-forward="true" selection-start-line="16327" selection-start-column="0" selection-end-line="16327" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WIFIjl.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -124,6 +109,9 @@
       <find>random3 == 13</find>
       <find>random3 == 14</find>
       <find>random8 == 26</find>
+      <find>random3_2 &lt; 10</find>
+      <find>utils.cqjl(s, 33, true)</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,13 +132,13 @@
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/pojo/scriptFile.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Excel.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/test/scala/excel_test.scala" />
-        <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
-        <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" />
+        <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala" />
+        <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
       </list>
     </option>
   </component>
@@ -182,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,8 +226,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,130 +249,6 @@
       <recent name="F:\zzti_soft\src\data" />
       <recent name="F:\zzti_soft\src\main\scala" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/ckjl.xls</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/cqjl.xls</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/jars.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__ch_qos_logback_logback_classic_1_1_2_jar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_8_9_jar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_8_9_jar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_8_9_jar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_9_jar.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_9_jar.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -589,7 +453,8 @@
       <workItem from="1518763309935" duration="10024000" />
       <workItem from="1518868421002" duration="6561000" />
       <workItem from="1518958314015" duration="12132000" />
-      <workItem from="1519043292416" duration="7766000" />
+      <workItem from="1519043292416" duration="8595000" />
+      <workItem from="1519127319043" duration="11025000" />
     </task>
     <task id="LOCAL-00001" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
       <created>1518773722769</created>
@@ -654,11 +519,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519047291383</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加library方法注释">
+      <created>1519051126819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519051126819</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49995000" />
+    <option name="totallyTimeSpent" value="61849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -681,12 +553,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -694,7 +567,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +585,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -724,6 +596,10 @@
           <caret line="316" column="14" lean-forward="true" selection-start-line="316" selection-start-column="14" selection-end-line="316" selection-end-column="14" />
           <folding>
             <element signature="e#16#35#0" expanded="true" />
+            <element signature="e#102#19255#0" expanded="false" />
+            <element signature="e#38364#57483#0" expanded="false" />
+            <element signature="e#57487#70665#0" expanded="false" />
+            <element signature="e#70669#84573#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,7 +652,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,7 +695,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -854,7 +730,7 @@
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
             <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,7 +779,7 @@
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
             <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -952,7 +828,7 @@
           <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
           <folding>
             <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1023,40 +899,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="222" column="3" lean-forward="false" selection-start-line="222" selection-start-column="3" selection-end-line="222" selection-end-column="3" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4145#4903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="501" column="23" lean-forward="false" selection-start-line="501" selection-start-column="23" selection-end-line="501" selection-end-column="23" />
-          <folding>
-            <element signature="e#16#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,20 +930,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="692">
+          <caret line="1776" column="0" lean-forward="false" selection-start-line="1776" selection-start-column="0" selection-end-line="1776" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+            <element signature="e#102#19255#0" expanded="false" />
+            <element signature="e#38364#57483#0" expanded="false" />
+            <element signature="e#57487#70665#0" expanded="false" />
+            <element signature="e#70669#84573#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="138">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16327" column="0" lean-forward="true" selection-start-line="16327" selection-start-column="0" selection-end-line="16327" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+          <folding>
+            <element signature="e#3881#4142#0" expanded="false" />
+            <element signature="e#4145#4905#0" expanded="false" />
           </folding>
         </state>
       </provider>
