@@ -82,7 +82,7 @@ class Utils {
     var ckid=(new util.Random).nextInt(20)//随机窗口号，假定20个窗口
     var xfje=(new util.Random).nextInt(20)+( if((new util.Random).nextDouble()>0.5)0.50 else 0.00)//随机消费金额20以内，整数或.5小数
     var syje=(new util.Random).nextDouble().formatted("%.2f").toDouble+(new util.Random).nextInt(300)//随机剩余金额300以内的小数
-    var stskjl="id:"+student.id+" name:"+student.name+" ck:"+ckid+" xfje:"+xfje+" syje:"+syje+" time:"+time+"\r\n"//拼接成一条记录,每个字段以空格分开
+    var stskjl=student.id+" "+student.name+" "+ckid+" "+xfje+" "+syje+" "+time+"\r\n"//拼接成一条记录,每个字段以空格分开
     val writer=new FileWriter("src\\data\\stsk.txt",true)
     writer.write(stskjl)
     writer.close()
@@ -99,7 +99,7 @@ class Utils {
     var sbbh=list(bh)
     var time = getTime(int)
     //    var sbbh=(new util.Random).nextInt(128)
-    var sxjls="id:"+student.id+" name:"+student.name+" sbbh:"+sbbh+" time:"+time+"\r\n"
+    var sxjls=student.id+" "+student.name+" "+sbbh+" "+time+"\r\n"
     val writer=new FileWriter("src\\data\\sxjl.txt",true)
     writer.write(sxjls)
     writer.close()
@@ -121,10 +121,9 @@ class Utils {
     var list=List("WiFi_00","WiFi_01","WiFi_02","WiFi_03","WiFi_04","WiFi_05","WiFi_06","WiFi_07","WiFi_08")
     var lybh=list(bh)
     var sxsj = getTime(int).toLong  //上线时间
-//    var lybh=(new util.Random).nextInt(8) //路由编号
     var zxsc=(new util.Random).nextInt(180)+10 //在线时长 10-180分钟
     var xxsj=sxsj+zxsc*60000  //下线时间
-    var WIFIjls="id:"+student.id+" name:"+student.name+" lybh:"+lybh+" sxsj:"+sxsj+" xxsj:"+xxsj+" zxsc:"+zxsc+"\r\n"
+    var WIFIjls=student.id+" "+student.name+" "+lybh+" "+sxsj+" "+xxsj+" "+zxsc+"\r\n"
     val writer=new FileWriter("src\\data\\WIFIjl.txt",true)
     writer.write(WIFIjls)
     writer.close()

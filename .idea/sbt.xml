@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="D:\sbt\bin\sbt-launch.jar" />
+    <option name="customVMPath" value="C:\Program Files\Java\jdk1.8.0_101" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/../zzti_soft" />
+        <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../zzti_soft" />
             <option value="$PROJECT_DIR$/../zzti_soft/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.0.0" />
+        <option name="resolveSbtClassifiers" value="true" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
+        <option name="useSbtShell" value="true" />
       </SbtProjectSettings>
     </option>
     <option name="vmParameters" value="" />
