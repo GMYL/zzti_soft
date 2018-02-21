@@ -20,7 +20,7 @@ object mjjlSave {
     job.setOutputValueClass(classOf[Result])    
     job.setOutputFormatClass(classOf[TableOutputFormat[ImmutableBytesWritable]])    
     
-    val file=sc.textFile("/zzti/data/mjjl.txt")
+    val file=sc.textFile("src/data/mjjl.txt")
     val t_s_rdd= file.map { x =>
       val fields = x.split(" ")
       (fields(2).toString, (fields(0).toString, fields(1).toString))

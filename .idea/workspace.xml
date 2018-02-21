@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66c8d72a-50af-45a6-9c3d-d0dfec89f92c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__log4j_log4j_1_2_14_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_10_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/libraries/jars.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft-build.iml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft-build.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft.iml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/modules/zzti_soft.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zzti_soft/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/build.sbt" afterPath="$PROJECT_DIR$/../zzti_soft/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala" afterPath="$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/../zzti_soft/out/" />
     <ignored path="$PROJECT_DIR$/../zzti_soft/target/" />
@@ -27,48 +26,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-              <folding>
-                <element signature="e#3881#4142#0" expanded="false" />
-                <element signature="e#4879#5395#0" expanded="false" />
-                <element signature="e#5398#5678#0" expanded="false" />
-                <element signature="e#5681#6236#0" expanded="false" />
-                <element signature="e#6239#6957#0" expanded="false" />
-                <element signature="e#6337#6560#0" expanded="false" />
-                <element signature="e#6960#7682#0" expanded="false" />
-                <element signature="e#7685#9389#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataType.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13915">
-              <caret line="1776" column="0" lean-forward="false" selection-start-line="1776" selection-start-column="0" selection-end-line="1776" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#35#0" expanded="true" />
-                <element signature="e#102#19255#0" expanded="false" />
-                <element signature="e#38364#57483#0" expanded="false" />
-                <element signature="e#57487#70665#0" expanded="false" />
-                <element signature="e#70669#84573#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cyzx_test.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -76,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mjjlSave.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mjjlSave.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="437">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -91,8 +62,8 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,8 +114,9 @@
         <option value="$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala" />
-        <option value="$PROJECT_DIR$/../zzti_soft/build.sbt" />
         <option value="$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/Utils.scala" />
+        <option value="$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala" />
+        <option value="$PROJECT_DIR$/../zzti_soft/build.sbt" />
       </list>
     </option>
   </component>
@@ -155,10 +127,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,6 +148,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,17 +186,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zzti_soft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,7 +368,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1519212964615" />
+    <option name="lastUpdateTimestamp" value="1519227393573" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -451,7 +418,14 @@
       <workItem from="1518958314015" duration="12132000" />
       <workItem from="1519043292416" duration="8595000" />
       <workItem from="1519127319043" duration="11973000" />
-      <workItem from="1519212229066" duration="3364000" />
+      <workItem from="1519212229066" duration="5967000" />
+      <workItem from="1519219898141" duration="677000" />
+      <workItem from="1519220615541" duration="1664000" />
+      <workItem from="1519222936310" duration="1627000" />
+      <workItem from="1519225017088" duration="384000" />
+      <workItem from="1519225438505" duration="211000" />
+      <workItem from="1519225717502" duration="1466000" />
+      <workItem from="1519227232948" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="完善查课记录和查寝记录底层数据生成方法，WiFi记录和摄像机记录因设备表的原因，设备号需要修改，尚未完成，待议，&#10;再有就是合理安排各种类型的人群的行为轨迹，组合调用方法，即可大规模生成数据,亟待商榷">
       <created>1518773722769</created>
@@ -537,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519140239617</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改文本数据生成格式，去掉字段名">
+      <created>1519215670260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519215670260</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66161000" />
+    <option name="totallyTimeSpent" value="75028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -556,21 +537,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66995615" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -593,7 +574,8 @@
     <MESSAGE value="测试cyzx方法，测试成功" />
     <MESSAGE value="添加library方法注释" />
     <MESSAGE value="基本一天内所有学生数据生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本一天内所有学生数据生成" />
+    <MESSAGE value="修改文本数据生成格式，去掉字段名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改文本数据生成格式，去掉字段名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,16 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,16 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,16 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,16 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="false" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,16 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/list.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -895,46 +819,11 @@
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/mjjl.txt" />
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/stsk.txt" />
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/WIFIjl.txt" />
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" />
     <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/action/dataType.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13915">
+        <state relative-caret-position="600">
           <caret line="1776" column="0" lean-forward="false" selection-start-line="1776" selection-start-column="0" selection-end-line="1776" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#35#0" expanded="true" />
-            <element signature="e#102#19255#0" expanded="false" />
-            <element signature="e#38364#57483#0" expanded="false" />
-            <element signature="e#57487#70665#0" expanded="false" />
-            <element signature="e#70669#84573#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/data/sxjl.txt" />
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,15 +831,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/main/scala/utils/zztiDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/cyzx_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <element signature="e#3881#4142#0" expanded="false" />
-            <element signature="e#4879#5395#0" expanded="false" />
-            <element signature="e#5398#5678#0" expanded="false" />
-            <element signature="e#5681#6236#0" expanded="false" />
-            <element signature="e#6239#6957#0" expanded="false" />
-            <element signature="e#6337#6560#0" expanded="false" />
-            <element signature="e#6960#7682#0" expanded="false" />
-            <element signature="e#7685#9389#0" expanded="false" />
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zzti_soft/src/test/scala/mjjlSave.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,7 +948,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jars</last-edited>
+          <last-edited>SBT: aopalliance:aopalliance:1.0:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

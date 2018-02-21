@@ -16,4 +16,10 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"
 
 libraryDependencies +="net.sourceforge.jexcelapi" % "jxl" % "2.6.12"
 
-libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.1.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.0"
+
+libraryDependencies += "org.apache.hbase" % "hbase-client" % "1.1.2"
+
+libraryDependencies += "org.apache.hbase" % "hbase-common" % "1.1.2"
+
+libraryDependencies += "org.apache.hbase" % "hbase-server" % "1.1.2"
